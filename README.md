@@ -6,6 +6,8 @@
 
 ##### API :- Keras
 
+##### Face Detection :- MobileNetV2
+
 ## How to run it ?
 
 Step 1 :- Download the repository . 
@@ -19,4 +21,16 @@ pip install -r requirements.txt
 ```
 
 *Python must be installed on your device.
+
+Step 4 :- Train the Model 
+
+```python
+python train_mask_detector.py
+```
+
+Step 5 :- Run the Model
+
+```python
+python detect_mask_video.py
+```
 
